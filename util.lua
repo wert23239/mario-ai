@@ -14,11 +14,7 @@ function util.setGameSpeedToVeryFast()
     settings.set_speed(400)
 end
 
--- Sets the game speed to fast (200).
--- TODO is this still used?
-function util.setGameSpeedToFast()
-    settings.set_speed(200)
-end
+
 
 -- Sets the game speed to normal (1).
 -- TODO is this still used?
