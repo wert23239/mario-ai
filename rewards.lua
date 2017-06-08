@@ -46,7 +46,8 @@ function rewards.statesToReward(stateChain, bestAction, bestActionValue)
     assert(#stateChain == STATES_PER_EXAMPLE)
     local state1 = stateChain[#stateChain-1]
     local state2 = stateChain[#stateChain]
-
+    --state1 is old state
+    --state2 is new state
     local scoreDiffReward = 0
     local xDiffReward = 0
     local levelBeatenReward = 0
