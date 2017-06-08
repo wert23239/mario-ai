@@ -64,6 +64,7 @@ function rewards.statesToReward(stateChain, bestAction, bestActionValue)
             -- Reward for moving to the right, more if faster.
             -- Negative reward for moving to the left.
             local xDiff = state2.playerX - state1.playerX
+            --XDiff is x differnce of X
             if xDiff >= 8 then
                 xDiffReward = 1.0
             elseif xDiff > 0 then
